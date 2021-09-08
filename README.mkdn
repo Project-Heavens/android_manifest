@@ -1,36 +1,57 @@
-LineageOS
-===========
+# Project Heavens
+ ==============
+Project Heavens is an attempt to make the Android experience much better and different from the regular AOSP standard. We are very thankful to everyone else who helped Heavens. This a new User Experience and we hope you enjoy using Project Heavens!
 
-Getting started
----------------
+#FeelsProject-Heavens
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+# Setting up Project-Heavens source
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To begin with you first have to initialize the repo:
+
+```bash
+repo init -u https://github.com/Project-Heavens/android_manifest.git -b 11
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
+
+
+Then sync it up:
+
+```bash
+repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
 ```
-Then to sync up:
+
+<b>Note: 
+- You must have at least 120-150GB free space on your disk 
+- Basic git knowledge</b>
+
+Building Project Heavens
+==================
+
+```bash
+. build/envsetup.sh
+lunch heavens_device-userdebug
+mka heavens
 ```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+
+Thank you for your contribution to Project-Heavens
+---------------------------------------------------------------------------------------
+ 
+ Team Project Heavens
+ ===============
+
+ * [**Nadins**](https://t.me/NadinAlissa) - Core Developer
+ * [**ToxicLord**](https://t.me/ToxicLord) - Core Developer
 
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+---------------------------------------------------------------------------------------
+ Credits:
+ =======
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+ * [**AOSP**](https://github.com/AOSP)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**Evolution-X**](https://github.com/Evolution-X)
+ * [**KangOS**](https://github.com/Kang-OS-R)
+ * [**Project Lighthouse**](https://github.com/lighthouse-os)
+ * [**NitrogenOS**](https://github.com/nitrogen-project)
+ * [**ManyMore from where cherry-picked from**](https://github.com)
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+---------------------------------------------------------------------------------------

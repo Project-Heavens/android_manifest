@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="heavens"
+           fetch="https://github.com/Project-Heavens/"
+           revision="11" />
+		   
+  <project path="android" name="android_manifest" remote="heavens" />
+
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="heavens" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="heavens" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="heavens" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="heavens" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="heavens" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="heavens" />
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="heavens" />
+
+  <!-- Lineage sdk-->
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="heavens" />
+
+  <!-- Packages -->
+  <project path="packages/apps/HeavensSettings" name="android_packages_apps_Heavens-Lab" remote="heavens" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="heavens" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="heavens" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="heavens" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="heavens" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="heavens" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="heavens" />
+  <project path="system/core" name="android_system_core" remote="heavens" />
+  <project path="system/security" name="android_system_security" remote="heavens" />
+  <project path="system/vold" name="android_system_vold" remote="heavens" />
+
+  <!-- Vendor -->
+  <project path="vendor/heavens" name="android_vendor_heavens" remote="heavens" />
+
+</manifest>
