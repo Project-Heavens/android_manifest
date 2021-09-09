@@ -46,6 +46,11 @@
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
 
+  <!-- Sepolicy -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="heavens" />
+  <project path="device/heavens/sepolicy" name="android_device_heavens_sepolicy" remote="heavens" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="heavens" />
+
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="heavens" />
   <project path="system/core" name="android_system_core" remote="heavens" />

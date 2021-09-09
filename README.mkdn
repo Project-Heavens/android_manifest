@@ -1,5 +1,5 @@
 # Project Heavens
- ==============
+ 
 Project Heavens is an attempt to make the Android experience much better and different from the regular AOSP standard. We are very thankful to everyone else who helped Heavens. This a new User Experience and we hope you enjoy using Project Heavens!
 
 #FeelsProject-Heavens
