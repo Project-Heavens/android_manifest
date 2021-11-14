@@ -31,6 +31,7 @@
   <remove-project name="device/sample" />
 
   <!-- External -->
+  <remove-project name="platform/external/robolectric-shadows" />
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />

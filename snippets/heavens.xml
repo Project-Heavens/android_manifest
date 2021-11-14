@@ -22,6 +22,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/robolectric-shadows" name="android_external_robolectric_shadows" remote="heavens" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="heavens" />
