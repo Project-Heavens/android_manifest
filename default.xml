@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-11.0" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"

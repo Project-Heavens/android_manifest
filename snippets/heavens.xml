@@ -63,5 +63,6 @@
 
   <!-- Vendor -->
   <project path="vendor/heavens" name="android_vendor_heavens" remote="heavens" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
 </manifest>
