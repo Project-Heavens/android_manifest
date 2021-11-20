@@ -24,6 +24,7 @@
 
   <!-- External -->
   <project path="external/robolectric-shadows" name="android_external_robolectric_shadows" remote="heavens" />
+  <project path="external/selinux" name="android_external_selinux" remote="heavens" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="heavens" />

@@ -32,6 +32,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/robolectric-shadows" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />
