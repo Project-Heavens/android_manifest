@@ -38,6 +38,9 @@
   <!-- Lineage sdk-->
   <project path="lineage-sdk" name="android_lineage-sdk" remote="heavens" />
 
+  <!-- libcore -->
+  <project path="libcore" name="android_libcore" remote="heavens" />
+
   <!-- Packages -->
   <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="heavens" />
   <project path="packages/apps/HeavensSettings" name="android_packages_apps_Heavens-Lab" remote="heavens" />

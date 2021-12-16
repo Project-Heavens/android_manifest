@@ -53,6 +53,9 @@
   <remove-project name="LineageOS/lineage_wiki" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
 
+  <!-- libcore -->
+  <remove-project name="platform/libcore" />
+
   <!-- Pakcages -->
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
