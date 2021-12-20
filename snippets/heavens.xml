@@ -25,6 +25,7 @@
   <!-- External -->
   <project path="external/robolectric-shadows" name="android_external_robolectric_shadows" remote="heavens" />
   <project path="external/selinux" name="android_external_selinux" remote="heavens" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="heavens" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="heavens" />
@@ -64,6 +65,7 @@
   <project path="system/core" name="android_system_core" remote="heavens" />
   <project path="system/security" name="android_system_security" remote="heavens" />
   <project path="system/vold" name="android_system_vold" remote="heavens" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="heavens" />
 
   <!-- Vendor -->
   <project path="vendor/heavens" name="android_vendor_heavens" remote="heavens" />

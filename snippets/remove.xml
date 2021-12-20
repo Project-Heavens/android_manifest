@@ -33,6 +33,7 @@
   <!-- External -->
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tremolo" />
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />
@@ -74,6 +75,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_system_vold" />
   <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/tools/aidl" />
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
