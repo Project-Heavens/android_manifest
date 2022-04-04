@@ -68,6 +68,7 @@
   <project path="system/extras" name="android_system_extras" remote="heavens" />
   <project path="system/security" name="android_system_security" remote="heavens" />
   <project path="system/vold" name="android_system_vold" remote="heavens" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="heavens" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="heavens" />
 
   <!-- Vendor -->

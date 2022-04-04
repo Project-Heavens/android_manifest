@@ -76,8 +76,9 @@
   <remove-project name="LineageOS/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_system_vold" />
+  <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/security" />
-  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/tools/aidl" />
 
   <!-- Vendor -->
