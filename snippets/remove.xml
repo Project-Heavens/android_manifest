@@ -34,6 +34,8 @@
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libexif" />
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_native" />
